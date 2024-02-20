@@ -1,0 +1,39 @@
+*{
+font-size:20px;
+}
+.hidden {
+  display: none;
+}
+
+/* Add more styling as needed */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+padding:20px;
+  display: flex;
+  align-items: center;
+  margin-left:400px;
+
+  margin-top:20px;
+background-color:white;
+width:50%;
+height:20%;
+  border-radius: 41px 41px 41px 41px;
+
+
+  
+}
+
+.btn{
+padding-left:450px;
+}
+.nextBtn{
+margin-left:500px;
+}
+#submitBtn{
+margin-left:260px;
+}
+/* Add more styling as needed */

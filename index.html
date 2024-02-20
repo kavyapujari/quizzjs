@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Main Exam Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="grey">
+  <div class="container">
+    <div id="quiz">
+      <!-- Questions will be loaded here dynamically -->
+    </div>
+  </div>
+  <div class="btn">
+    <div id="navigationButtons">
+      <button id="prevBtn" onclick="prevQuestion()" >Previous</button>
+      <button id="nextBtn" onclick="nextQuestion()" class="nextBtn">Next</button>
+    </div>
+    <div id="submitDiv">
+      <button id="submitBtn" onclick="submitQuiz()" target = "#container">Submit Exam</button>
+    </div>
+    <div id="result" class="hidden">
+      <!-- Result will be displayed here dynamically -->
+      <br>
+    </div>
+  </div>
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
